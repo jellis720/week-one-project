@@ -1,0 +1,375 @@
+body {
+  background: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#community {
+  margin-top: 120px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+header {
+  background: #FFFFFF;
+  text-transform: uppercase;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+}
+
+.logo {
+  height: 100%;
+}
+
+a img {
+  height: 50%;
+}
+
+.navMain {
+  color: #2B2F26;
+  padding: 0 16px;
+}
+
+h1 {
+  display: flex;
+  font-family: 'Merriweather', serif;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.indexMain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.indexMain h1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+}
+
+.indexMain h2{
+  margin:-20px 35% 32px 35%;
+}
+
+.imgCluster{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width:100%;
+}
+
+.navMain {
+  color: #2B2F26;
+}
+
+.newsletterMain {
+  background-image: url(README.md/images/background-2.jpg);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  align-items: center;
+  font-size: 36px;
+  padding: 60px 0;
+}
+
+.imgCluster p{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: white;
+  background-color: black;
+  padding:10px;
+}
+
+a:hover {
+  color: #F2F1E8;
+}
+
+.paragraphBlock {
+  flex-wrap: nowrap;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.paragraphBlock {}
+
+.paragraphBlockTwo {
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 1px solid black;
+  font-weight: 100;
+  margin-left: 0;
+  padding-left: 30px;
+}
+
+aside {
+  flex-wrap: wrap;
+  width: 10%;
+  margin-top: 60px;
+  margin-right: 60px;
+  font-size: 10px;
+}
+
+.imageBar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url(README.md/images/background-3.jpg);
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  align-items: center;
+  font-size: 36px;
+  padding: 60px 0;
+}
+
+section {
+  border: 10px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:center;
+}
+
+.imgI1{
+  background-image: url(README.md/images/product-1.jpg);
+  display: flex;
+  width: 100%;
+  max-width:57%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+}
+
+.imgI2{
+  background-image: url(README.md/images/product-2.jpg);
+  display: flex;
+  width: 20%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+}
+
+.imgI3{
+  background-image: url(README.md/images/product-3.jpg);
+  display: flex;
+  width: 20%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+}
+
+
+.imgI4{
+  background-image: url(README.md/images/product-4.jpg);
+  display: flex;
+  width: 20%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+  margin-bottom: 100px;
+
+}
+
+.imgI5{
+  background-image: url(README.md/images/product-5.jpg);
+  display: flex;
+  width: 20%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+  margin-bottom: 100px;
+
+}
+
+.imgI6{
+  background-image: url(README.md/images/product-6.jpg);
+  display: flex;
+  width: 36%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+  margin-bottom: 100px;
+
+}
+
+.imgI7{
+  background-image: url(README.md/images/product-7.jpg);
+  display: flex;
+  width: 20%;
+  height: 100%;
+  max-height:180px;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  background-color: :black;
+  margin:5px;
+  margin-bottom: 100px;
+
+}
+
+.image p {
+  margin-top: -20px;
+  background-color: black;
+  color: white;
+  width: inherit;
+}
+
+.p1Picture {
+  width: 40%;
+}
+
+.contentBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  width: 65%;
+  height: 350px;
+  margin-top: 60px;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 32px;
+}
+
+.newsletterP {
+  margin-top: -40px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 75%;
+}
+
+form button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sideBarImg {
+  width: 100%;
+}
+
+table {
+  border: black solid 1px;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: black solid 1px;
+}
+
+tr {
+  border: black solid 1px;
+}
+
+td {
+  border: black solid 1px;
+}
+
+.otherColor {
+  background-color: #968772
+}
+
+footer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  bottom: 0;
+}
